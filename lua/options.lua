@@ -1,6 +1,6 @@
 -- scrolling
 vim.opt.scrolloff = 0
-vim.cmd([[:set mousescroll=ver:2,hor:0]])
+vim.cmd([[:set mousescroll=ver:1,hor:0]])
 
 vim.o.syntax = true
 vim.o.errorbells = false
@@ -35,9 +35,9 @@ vim.wo.number = true
 vim.wo.relativenumber = true
 vim.wo.signcolumn = 'yes'
 vim.wo.linebreak = true
-vim.opt.cursorline = false
+vim.opt.cursorline = true
 vim.o.showmode = false
-
+vim.cmd([[:colorscheme zenwritten]])
 vim.cmd([[:set guicursor=n-v:block,i-ci-ve:ver25,r-cr:hor20,o:hor50
   \,a:blinkwait300-blinkoff400-blinkon550-Cursor/lCursor
   \,sm:block-blinkwait175-blinkoff150-blinkon175]])
