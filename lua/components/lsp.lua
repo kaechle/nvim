@@ -1,14 +1,13 @@
 local lsp = require('lsp-zero')
 
 lsp.preset('recommended')
-
 lsp.ensure_installed({
   'lua_ls',
   'tsserver',
   'rust_analyzer',
+  'pyright'
 })
 
--- Fix Undefined global 'vim'
 lsp.configure('lua_ls', {
   settings = {
     Lua = {
@@ -67,5 +66,7 @@ end)
 lsp.setup()
 
 vim.diagnostic.config({
-  virtual_text = true
+  virtual_text = false
 })
+
+

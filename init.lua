@@ -1,4 +1,3 @@
-
-require('options')
-require('keys')
-require('plugins')
+ require('plugins')
+ require('keys')
+ require('options')
