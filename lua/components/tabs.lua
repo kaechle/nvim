@@ -1,5 +1,42 @@
-vim.g.barbar_auto_setup = true
-require'barbar'.setup {
-  separator_at_end = false,
-  hide = {extensions = false, inactive = false},
-}
+
+-- local bufferline = require('bufferline')
+-- bufferline.setup {
+--   options = {
+--     mode = "buffers",
+--     style_preset = {
+--       bufferline.style_preset.no_italic,
+--       bufferline.style_preset.no_bold,
+--       bufferline.style_preset.minimal
+--     },
+--     themable = true,
+--     close_command = "bdelete! %d",       -- can be a string | function, | false see "Mouse actions"
+--     right_mouse_command = false,
+--     left_mouse_command = "buffer %d",    -- can be a string | function, | false see "Mouse actions"
+--     indicator = {
+--       style = 'none',
+--     },
+--     buffer_close_icon = '󰅖',
+--     max_name_length = 19,
+--     max_prefix_length = 8, -- prefix used when a buffer is de-duplicated
+--     truncate_names = true, -- whether or not tab names should be truncated
+--     tab_size = 21,
+--     offsets = {
+--       {
+--         filetype = "neo-tree",
+--         text = function()
+--           return vim.fn.getcwd()
+--         end,
+--         highlight = "Directory",
+--         text_align = "left"
+--       }
+--     },
+--     show_duplicate_prefix = true,
+--     hover = {
+--       enabled = true,
+--       delay = 200,
+--       reveal = {'close'}
+--     },
+--     always_show_bufferline = true,
+--     show_buffer_close_icons = true 
+--   }
+-- }

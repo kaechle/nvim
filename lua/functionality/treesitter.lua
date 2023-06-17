@@ -14,14 +14,15 @@ require'nvim-treesitter.configs'.setup {
     "html",
     "css",
     "markdown",
-    "markdown_inline"
+    "markdown_inline",
+    "rust"
   },
   highlight = {
-    enable = false,
-    disable = { "c", "rust" },
-    additional_vim_regex_highlighting = false,
+    enable = true,
+    disable = {},
+    additional_vim_regex_highlighting = true,
   },
   indent = {
-    enable = false,
+    enable = true,
   },
 }

@@ -1,4 +1,6 @@
+
 require('nvim-autopairs').setup()
+require('gitsigns').setup()
 require('indent_blankline').setup {
   show_current_context = false,
   show_current_context_start = false,

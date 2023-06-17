@@ -1,7 +1,7 @@
 require("telescope").setup{
   load_extension = {
     file_browser = {
-      hidden = true,
+      hidden = false,
       only_current_dir = true,
       show_hidden = true,
       file_ignore_patterns = {
@@ -23,4 +23,3 @@ require("telescope").setup{
     }
   }
 }
-require("telescope").load_extension "file_browser"
