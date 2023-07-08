@@ -1,9 +1,9 @@
 if vim.g.vscode then
-  require('keys')
-  require('options')-- VSCode extension
+  require('lua/keys')
+  require('lua/options')
 else
-  require('plugins')  -- VSCode extension
+  require('plugins')
   require('keys')
-  require('options')-- ordinary Neovim
+  require('options')
 end
 

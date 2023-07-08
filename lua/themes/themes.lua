@@ -42,7 +42,7 @@ require('nightfox').setup({
   groups = {},
 })
 
--- vim.cmd("colorscheme nordfox")
+vim.cmd("colorscheme nordfox")
 
 --vim.api.nvim_set_hl(0, "Keyword", { fg='#ffa589' })
 vim.api.nvim_set_hl(0, 'Normal', { fg='#dcdcdd', bg='none' })
